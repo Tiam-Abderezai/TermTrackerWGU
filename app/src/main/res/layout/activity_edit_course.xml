@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ViewModel.EditCourseActivity">
+
+    <EditText
+        android:id="@+id/edit_text_title_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Title"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/edit_text_date_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Date"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/buttonStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Start Date" />
+
+    <TextView
+        android:id="@+id/edit_text_date_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Date"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick End Date" />
+
+
+    <EditText
+        android:id="@+id/edit_text_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notes"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_status_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edit_text_mentor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mentor"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_mentor_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mentor Phone"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/edit_text_mentor_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mentor Email"
+        android:inputType="text"
+        />
+
+</LinearLayout>

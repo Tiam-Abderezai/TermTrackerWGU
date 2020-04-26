@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Term-Tracker-WGU</string>
+    <string name="button_terms">Terms</string>
+    <string name="button_courses">Courses</string>
+    <string name="button_assessments">Assessments</string>
+    <string name="button_mentors">Mentors</string>
+    <string name="title_activity_terms">Terms</string>
+    <string name="title_activity_courses">Courses</string>
+    <string name="title_activity_assessments">Assessments</string>
+    <string name="title_activity_mentors">Mentors</string>
+
+    <string name="button_main">Main Menu</string>
+    <string name="title">Title</string>
+    <string name="button_text">Edit</string>
+    <string name="delete_all_terms">Delete all terms</string>
+    <string name="open_date_picker">open time picker</string>
+    <string name="title_activity_notes">notes</string>
+
+
+</resources>
